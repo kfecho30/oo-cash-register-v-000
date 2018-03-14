@@ -24,9 +24,6 @@ class CashRegister
   end
 
   def items
-    @quantity.times do
-      @items << @item
-    end
     @items
   end
 
