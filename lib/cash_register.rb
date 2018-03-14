@@ -13,10 +13,10 @@ class CashRegister
 
   def add_item(item, price, quantity = 1)
     @total += (price*quantity)
-    items(item, quantity)
+    items
   end
 
-  def items(item, quantity)
+  def items
     @items = []
     quantity.times do
       @items << item
