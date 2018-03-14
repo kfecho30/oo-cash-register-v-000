@@ -21,6 +21,7 @@ class CashRegister
     quantity.times do
       @items << item
     end
+    @items
   end
 
   def apply_discount
