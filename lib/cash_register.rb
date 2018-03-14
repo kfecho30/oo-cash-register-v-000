@@ -16,10 +16,10 @@ class CashRegister
     items(item, quantity)
   end
 
-  def items
+  def items(item, quantity)
     @items = []
     quantity.times do
-      @items << items
+      @items << item
     end
   end
 
